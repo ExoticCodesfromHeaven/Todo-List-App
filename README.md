@@ -1,35 +1,45 @@
-# Todo-List-App
-A simple, interactive Todo List web application that allows users to add, complete, edit, and delete tasks dynamically. This project is built using HTML, CSS, and JavaScript.
+#Todo List App
 
+A simple and interactive Todo List application built using HTML, CSS, and JavaScript (Vanilla JS and jQuery). This app allows users to add, mark as complete, and delete tasks with smooth animations.
 
-Features
-Add new tasks by pressing the Enter key.
-Mark tasks as completed by clicking on them.
-Delete tasks by clicking the trash icon.
-Edit tasks using the edit button.
-Smooth animations for task removal.
-Responsive design.
+🚀 Live Demo
+Click here to view the project
 
-Technologies Used
-HTML: For structuring the app.
-CSS: For styling and layout.
-JavaScript (Vanilla & jQuery): For dynamic interactions.
+📌 Features
+Add new todos by pressing Enter
+Click on a todo to mark it as completed
+Delete todos with a fade-out animation
+Responsive and user-friendly UI
 
-Future Improvements
-Implement Local Storage to save tasks.
-Add a filter to show completed or pending tasks.
-Improve UI/UX with animations and themes.
-Introduce drag-and-drop reordering.
+🛠 Technologies Used
+HTML5
+CSS3
+JavaScript (ES6+)
+jQuery
 
-How to Run
+📂 Project Structure
+Todo-List-App/
+│── assets/
+│   ├── css/
+│   │   ├── styles.css
+│   ├── js/
+│   │   ├── script.js
+│   │   ├── main.js
+│   │   ├── optional.js
+│── index.html
+│── README.md
+
+📖 How to Use
 Clone the repository:
-git clone https://github.com/your-username/Todo-List-App.git
-Navigate to the project folder:
-cd Todo-List-App
+git clone https://github.com/ExoticCodesFromHeaven/Todo-List-App.git
 Open index.html in a browser.
+Start adding and managing your tasks!
 
-Contributing
-Feel free to fork this repository and contribute improvements. Submit a pull request when you're ready!
+💡 Future Enhancements
+Add local storage support to persist tasks
+Implement an edit feature for existing todos
+Improve styling with animations
 
-License
-This project is open-source and available under the MIT License.
+🎯 Author
+Developed by ExoticCodesFromHeaven
+Feel free to contribute, suggest improvements, or report issues! 😊
