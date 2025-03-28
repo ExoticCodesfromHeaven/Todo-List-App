@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
+    background-color: gray;
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    margin: 5% auto;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+#title {
+    display: flex;
+    justify-content: space-between; /* Pushes elements to both ends */
+    align-items: center; /* Aligns items vertically */
+    width: 100%;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.fa-duotone {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+}
+#button {
+    background-color: #2980b9;
+    align-self: flex-end;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #3498db;
+}
+input {
+    width: 100%;
+    font-size: 18px;
+    padding: 13px 13px 13px 20px;
+    border: 3px solid rgba(0,0,0,0);
+    color: #2980b9;
+    background-color: #f7f7f7;
+}
+input:focus {
+    background-color: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+#newTodo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#todos {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    width: 100%;
+}
+li {
+    background-color: #fff;
+    color: #666;
+}
+li:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+.completed {
+    color: lightgray;
+    text-decoration: line-through;
+}
+.delete {
+    display: inline-flex;
+    background-color: #e74c3c;
+    color: white;
+    height: 40px;
+    width: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: width 0.2s linear, opacity 0.2s linear;
+    padding-right: 8px;
+}
+li:hover .delete {
+    width: 40px;
+    visibility: visible;
+    opacity: 1.0;
+}
